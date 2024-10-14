@@ -3,8 +3,8 @@ Feature: Tasks in the to-do list
   # Positive scenarios
   Scenario: User should be able to add a new task
         Given the app is running
-        When the user adds a new task "Buy groceries"
-        Then the task "Buy groceries" should be added to the task list
+        When the user adds a new task
+        Then the new task should be appear at the list
 
     Scenario: User should mark a task complete
         Given the app is running
